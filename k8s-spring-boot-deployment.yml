@@ -16,10 +16,10 @@ spec:
         - name: springboot
           image: 920372/team-002:tagname
           ports:
-            - containerPort: 8080
+            - containerPort: 8000
           env:
             - name: PORT
-              value: "8080"
+              value: "8000"
 ---
 apiVersion: v1
 kind: Service
